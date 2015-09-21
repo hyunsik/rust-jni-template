@@ -1,0 +1,11 @@
+[package]
+name = "jni-example"
+version = "0.1.0"
+authors = ["Hyunsik Choi <hyunsik@apache.org>"]
+
+[lib]
+name = "native"
+crate-type = ["dylib"]
+
+[dependencies.jni_native]
+path = "jni_native"
