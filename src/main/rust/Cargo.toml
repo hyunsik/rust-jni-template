@@ -7,5 +7,5 @@ authors = ["Hyunsik Choi <hyunsik@apache.org>"]
 name = "native"
 crate-type = ["dylib"]
 
-[dependencies.jni_native]
+[dependencies.jni]
 path = "jni_native"

@@ -1,7 +1,8 @@
 [package]
-name = "jni_native"
+name = "jni"
 version = "0.1.0"
 authors = ["Hyunsik Choi <hyunsik.choi@gmail.com>"]
 
 [lib]
-name = "jni_native"
+name = "jni"
+path = "src/lib.rs"
