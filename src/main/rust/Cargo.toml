@@ -8,4 +8,4 @@ name = "native"
 crate-type = ["dylib"]
 
 [dependencies.jni]
-path = "jni_native"
+git = "https://github.com/hyunsik/jni-rs.git"
